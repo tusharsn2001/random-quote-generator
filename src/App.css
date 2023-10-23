@@ -1,0 +1,53 @@
+.body_ {
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quote-box {
+
+  height: 400px;
+  width: 500px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+#tweet {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+
+#new-quote {
+  background-color: rgb(139, 219, 253);
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(255, 174, 127);
+  }
+
+}
+
+.quote-text {
+  color: #1a1a1a;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.author-text {
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 800;
+}
